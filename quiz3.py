@@ -8,7 +8,7 @@ temp = 0
 
 for i in numbers:
     temp += i
-    prefix_sum.append(temp)
+    prefix_sum.append(temp)         # 합 배열 만들기
     
 for i in range(quizNo):
     s, e = map(int, input().split())
