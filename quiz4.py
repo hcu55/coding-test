@@ -1,7 +1,8 @@
 import sys
 input = sys.stdin.readline
 
-n, m = map(int, input().split())             # n: 리스트 크기, m: 질문 수
+n, m = map(int, input().split())  
+print(n)           # n: 리스트 크기, m: 질문 수
 A = [[0] * (n+1)]                            # 원본 리스트
 D = [[0] * (n+1) for _ in range(n+1)]        # 합 배열
 
