@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline  # 백준에서 없이 제출하니 시간초과가 나서 붙임
+
 N = int(input())
 A = [int(input()) for _ in range(N)]    # 수열 리스트 채우기
 
