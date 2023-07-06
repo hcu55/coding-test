@@ -4,7 +4,7 @@ input = sys.stdin.readline
 N, K = map(int, input().split())
 A = list(map(int, input().split()))
 
-def quickSort(S, E, K):
+def quickSort(S, E, K):         # 퀵 정렬 알고리즘
     global A
     if S < E:
         pivot = partition(S,E)
