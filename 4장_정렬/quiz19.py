@@ -15,13 +15,13 @@ def quickSort(S, E, K):         # 퀵 정렬 알고리즘
         else:
             quickSort(pivot + 1, E, K)
 
-def swap(i, j):
+def swap(i, j):     # swap 알고리즘
     global A
     temp = A[i]
     A[i] = A[j]
     A[j] = temp
 
-def partition(S, E):
+def partition(S, E):    
     global A
     
     if S + 1 == E:
